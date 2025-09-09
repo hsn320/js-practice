@@ -2,8 +2,8 @@ const wallet = 2000;
 const itemA = 2980;
 
 if(wallet < itemA){
-    console.log("購入することができません")
+    console.log("購入することができません");
 }
 else{
-    console.log("購入することができます")
+    console.log("購入することができます");
 }
