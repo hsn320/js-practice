@@ -20,3 +20,22 @@ else{
 }
 
 console.log(ans);
+
+switch(calc){
+  case "a":
+    ans = num1 + num2
+    break;
+  case "b":
+    ans = num1 - num2
+    break;
+  case "c":
+    ans = num1 * num2
+    break;
+  case "d":
+    ans = num1 / num2
+    break
+  default:
+    ans = "error!"
+    break;
+}
+console.log(ans);
