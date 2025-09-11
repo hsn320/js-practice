@@ -1,16 +1,10 @@
-const btnA = document.getElementById("btnA");
-const btnB = document.getElementById("btnB");
-const btnC = document.getElementById("btnC");
+const btn = document.getElementsByClassName("btn");
 const result = document.getElementById("result");
 
-btnA.onclick = () => {
-  result.innerText = "btnAが押された";
+function msg(evt){
+  result.innerText = evt.target.innerText + "が押された";
 }
 
-btnB.onclick = () => {
-  result.innerText = "btnBが押された";
-}
-
-btnC.onclick = () => {
-  result.innerText = "btnCが押された";
+for(let i=0; i<btn.length; i++){
+  btn[i].onclick = msg;
 }
