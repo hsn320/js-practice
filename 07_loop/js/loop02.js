@@ -17,3 +17,10 @@ let cities = [
 ];
 
 const result = document.getElementById("result");
+const Cities = cities.filter(city => city.population >= 400000);
+
+Cities.forEach(city => {
+  console.log(city.name);
+});
+
+result.innerText = Cities.map(city => city.name).join("、");
