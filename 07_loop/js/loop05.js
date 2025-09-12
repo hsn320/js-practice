@@ -6,4 +6,9 @@ const fruit = [
   { name: 'kiwi', price: 80 },
   { name: 'mango', price: 680 }
 ];
+const out = document.getElementById("out");
 
+const result = fruit.reduce((prev,current) => prev+current.price,0);
+
+console.log(result);
+out.innerText = `${result}円`;
