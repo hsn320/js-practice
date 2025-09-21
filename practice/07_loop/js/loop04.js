@@ -6,3 +6,11 @@ const fruit = [
   { name: 'kiwi', price: 80 },
   { name: 'mango', price: 680 }
 ];
+const Name = document.getElementById("name");
+const btn = document.getElementById("btn");
+const out = document.getElementById("out");
+
+btn.onclick = () => {
+  const result = fruit.find(e => e.name === Name.value);
+  out.innerText = `${result.name}：価格は${result.price}です`
+}
