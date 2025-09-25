@@ -42,6 +42,15 @@
     // 3つのテキストボックスにそれぞれ単語を入れて「PPAP」ボタンを押すと、単語の間にハイフンを入れて合体させてください
     // 目標出力　Pen-PineApple-Apple-Pen 
     
+    const pen = document.getElementById("pen");
+    const pine = document.getElementById("pineapple");
+    const apple = document.getElementById("apple");
+    const ppap = document.getElementById("ppap");
+    console.log(pen,pine,apple);
+    
+    ppap.onclick = () => {
+      console.log(`${pen.value}-${pine.value}-${apple.value}-${pen.value}`);
+    }
 
   </script>
 </body>
