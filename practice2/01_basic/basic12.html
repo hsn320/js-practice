@@ -52,17 +52,24 @@
   <script>
     // basicの間はここにJavaScriptを直接記載しましょう
     // 定数btnを作成する
-    
-    // 定数textを作成する
-    
-    // 定数btnがクリックされたら
-    {
-      // 変数 textValueを作成し、textのvalueを代入する
-      
-      // コンソール画面に変数textValueを表示
-      
-    }    
 
+    // 定数textを作成する
+
+    // 定数btnがクリックされたら
+
+      // 変数 textValueを作成し、textのvalueを代入する
+
+      // コンソール画面に変数textValueを表示
+
+
+    const btn = document.getElementById("btn");
+    const text = document.getElementById("text");
+
+
+    btn.onclick = () =>{
+      let textValue = text.value;
+      console.log(text.value);
+    }
   </script>
 </body>
 </html>
