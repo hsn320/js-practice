@@ -20,3 +20,18 @@ else{
 }
 
 console.log(ans);
+
+switch(calc){
+  case "a":
+    console.log(ans = num1 + num2);
+    break;
+  case "b":
+    console.log(ans = num1 - num2);
+    break;
+  case "c":
+    console.log(ans = num1 * num2);
+    break;
+  case "d":
+    console.log(ans = num1 / num2);
+    break;
+}
