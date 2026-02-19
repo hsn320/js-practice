@@ -3,4 +3,4 @@ do{
     console.log(`${count}回の攻撃開始`);
     count--;
 }
-while(count > 0);
+while(count > 10);

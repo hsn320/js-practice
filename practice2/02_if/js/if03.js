@@ -1,13 +1,14 @@
 const wallet = 3000;
-let item = prompt();
-item = Number(item);
 
-if(wallet > item){
-    console.log("購入することができます");
+let itemA = prompt();
+itemA = Number(itemA);
+
+if(wallet > itemA){
+    console.log("購入することができます。")
 }
-else if(wallet == item){
+else if(wallet == itemA){
     console.log("ピッタリです");
 }
 else{
-    console.log("購入することができません");
+    console.log("購入することができません。");
 }

@@ -43,14 +43,14 @@
     // 目標出力　Pen-PineApple-Apple-Pen 
     
     const pen = document.getElementById("pen");
-    const pine = document.getElementById("pineapple");
+    const pineapple = document.getElementById("pineapple");
     const apple = document.getElementById("apple");
-    const ppap = document.getElementById("ppap");
-    console.log(pen,pine,apple);
-    
-    ppap.onclick = () => {
-      console.log(`${pen.value}-${pine.value}-${apple.value}-${pen.value}`);
-    }
+    const Ppap = document.getElementById("ppap");
+    console.log(pen,pineapple,apple,Ppap);
+
+    Ppap.addEventListener("click",()=>{
+      console.log(`${pen.value}-${pineapple.value}-${apple.value}-${pen.value}`);
+    });
 
   </script>
 </body>

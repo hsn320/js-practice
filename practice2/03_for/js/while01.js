@@ -1,4 +1,4 @@
-let mp = 100;
+let mp = 100
 
 while(mp > 0){
     mp -= 7;

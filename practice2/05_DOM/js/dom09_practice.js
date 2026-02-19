@@ -5,11 +5,11 @@ const wrap = document.getElementById("wrap");
 let fontSize = 16;
 wrap.style.fontSize = fontSize + "px";
 
-small.onclick = () => {
+small.onclick = () =>{
     fontSize -= 2;
-    wrap.style.fontSize = fontSize + "px"; 
+    wrap.style.fontSize = fontSize + "px";
 }
-large.onclick = () => {
+large.onclick = () =>{
     fontSize += 2;
-    wrap.style.fontSize = fontSize + "px"; 
+    wrap.style.fontSize = fontSize + "px";
 }

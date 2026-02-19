@@ -1,7 +1,7 @@
 let time = prompt();
 time = Number(time);
 
-if(time < 0 || time > 24){
+if(time <= 0 || time >= 25){
     console.log("そんな時間はありません");
 }
 else if(time >= 1 && time <= 6){

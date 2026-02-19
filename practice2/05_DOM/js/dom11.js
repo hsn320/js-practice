@@ -1,8 +1,8 @@
-const btn = document.getElementsByClassName("changeBtn");
+const Btn = document.getElementsByClassName("changeBtn");
 const bg = document.getElementById("bg");
 
-for(let i=0; i<btn.length; i++){
-    btn[i].onclick = (e) =>{
-        bg.style.backgroundColor = e.target.innerText;
+for(let i=0; i<Btn.length; i++){
+    Btn[i].onclick = (evt) =>{
+        bg.style.backgroundColor = evt.target.innerText;
     }
 }
