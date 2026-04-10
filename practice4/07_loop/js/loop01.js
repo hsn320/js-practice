@@ -9,5 +9,5 @@ const Menu = document.getElementById("menu");
 
 menu.forEach( (e,i) => {
   console.log(e,i);
-  menu.innerText += e + ",";
+  Menu.innerText += e + ",";
 })
